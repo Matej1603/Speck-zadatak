@@ -1,0 +1,59 @@
+.zaglavlje{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#textbox{
+    height: 35px;
+    width: 300px;
+    border-color: red;
+    border-radius: 5px;
+}
+#add {
+    margin: 40px;
+    height: 40px;
+    width: 100px;
+    background-color:rgb(250, 195, 189);
+    border-color: red;
+    border-radius: 5px;
+    text-align: center;
+    color: red;
+    font-size: larger;
+    font-family: monospace;
+}
+
+#add:hover{
+color:white;
+background-color: red;
+}
+
+#delete {
+    margin-top: 5%;
+    float: right;
+    color: red;
+    cursor: pointer;
+}
+
+#container_lijevi{
+margin-left: 15%;
+float: left;
+}
+#container_desni{
+margin-right:15%;
+float:right;
+}
+
+.box {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 3px 4px rgb(205, 200, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 450px;
+}
